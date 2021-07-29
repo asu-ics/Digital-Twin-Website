@@ -11,10 +11,16 @@
 <body>
     <div class="main">
     <img src="./img/background1.png" alt="" id="background">
-    <div class="buttons">
-        <button type="button">Button 1</button>
-        <button type="button">Button 2</button>
-        </div>
+    
+    <!-- *imported from XR website -->
+    <div id="playButtonsDesktop" class="mb-4 text-center">
+        <!-- play buttons on desktop -->
+            <button class="sectionTitle playNowButton" onclick="launchExperience(this)" id="gl">Play Now <small>(WebGL)</small></button>
+            <button class="sectionTitle playNowButton" onclick="launchExperience(this)" id="xr">Play Now <small>(WebXR)</small></button>
+            <button class="sectionTitle playNowButton" onclick="launchExperience(this)" id="rift">Play Now <small>(Oculus Rift)</small></button>
+            <button class="sectionTitle playNowButton" onclick="launchExperience(this)" id="quest">Play Now <small>(Oculus Quest)</small></button></div>
+    </div>
+
     <div class="title"><a href="https://www.asu.edu/"><img src="./img/ASU-logo.png" class="asuLogo"></a></div>
     <div class="secondTitle">Interactive<br>Virtual<br>
         <div class="campusTwin">Campus Twin</div>
